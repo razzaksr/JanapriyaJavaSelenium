@@ -1,0 +1,46 @@
+java.lang
+
+Wrappers
+Object
+Thread
+Runnable
+Exception
+
+
+java.io
+
+IOException
+
+Data access logic:
+Files
+Server
+
+
+File
+
+open
+write
+read
+close
+
+
+Streams: (byte)
+InputStream		>> read
+FileInputStream
+ObjectInputStream
+InflaterInputStream
+OutputStream		>> write
+FileOutputStream
+ObjectOutputStream
+DeflaterOutputStream
+
+
+characters
+FileReader
+FileWriter
+
+additional/advanced:
+edit
+delete
+copy paste
+cut paste

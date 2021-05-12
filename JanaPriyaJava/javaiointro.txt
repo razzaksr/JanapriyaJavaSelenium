@@ -39,7 +39,35 @@ characters
 FileReader
 FileWriter
 
+
+Serialization:
+
+1. Serializable
+2. ObjectOutputStream>> write
+3. ObjectInputStream>> read
+
+
+
+
 additional/advanced:
+
+commons-io.jar
+
+java project:
+1. download commons-io.jar
+2. new folder in your project
+3. paste commons-io.jar inside newly created folder
+4. Project>>right click>> build path>> configure build path>> libraries section>> add jar>> select commons-io.jar recently added your folder in project
+5. Apply>> close
+
+
+maven project:
+1. search and copy dependency of "commons-io maven dependency" from mvnrespository site
+2. paste inside dependency section of pom.xml
+ 
+
+write
+read
 edit
 delete
 copy paste

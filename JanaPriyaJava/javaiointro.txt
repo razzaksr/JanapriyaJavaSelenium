@@ -68,7 +68,14 @@ maven project:
 
 write
 read
-edit
+edit:
+1. read lines and store it in a collection>> storage class with methods
+2. decide what to edit
+3. change/ replace
+4. write collection to the file
+
+
+
 delete
 copy paste
 cut paste

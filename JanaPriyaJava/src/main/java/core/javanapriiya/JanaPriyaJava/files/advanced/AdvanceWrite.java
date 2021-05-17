@@ -11,7 +11,8 @@ public class AdvanceWrite
 	{
 		File file=new File("D:\\Course backups\\Java\\SeleniumCombo\\Chrono.txt");
 		
-		FileUtils.writeStringToFile(file, "Everyone has unique talent", true);
+		//FileUtils.writeStringToFile(file, "Everyone has unique talent", true);// append
+		FileUtils.writeStringToFile(file, "Everyone has unique talent");// overwrite
 		
 		System.out.println("Content has written in "+file.getName());
 	}

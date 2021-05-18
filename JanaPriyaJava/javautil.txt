@@ -1,0 +1,26 @@
+java.util
+
+Scanner
+InputMisMatchException
+DeflaterOutputStream>> java.util.zip
+InflaterInputStream>> java.util.zip
+
+Collection framework:
+
+1. no type restriction
+2. no size restriction
+3. in built methods in order to perform all manipulations on the data
+4. secure >> Storage class
+5. less time complexity because its occupies in run time memory/ dynamic memory
+
+
+Note:
+Array 
+int[] 
+Integer[]
+
+Collection:
+CollectionClass<> object=new CollectionClass<>();// generic>> no type specific
+CollectionClass<Class> object=new CollectionClass<Class>();// non-generic>> type specific
+
+

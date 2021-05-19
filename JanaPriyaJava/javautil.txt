@@ -23,4 +23,19 @@ Collection:
 CollectionClass<> object=new CollectionClass<>();// generic>> no type specific
 CollectionClass<Class> object=new CollectionClass<Class>();// non-generic>> type specific
 
+10bits
 
+Storage class:
+List: duplicate objects allowed, index available like array
+Stack
+LinkedList
+ArrayList: 10,20,30; asynchronized/Vector: 10,15; synchronized
+
+
+Set:duplicate not allowed, index not available
+HashSet
+TreeSet
+
+Map:<keyclass,valueclass>: eg: key:value
+HashMap: asynchronized; 10,20,/Hashtable: synchronized; 11,22,33
+TreeMap
